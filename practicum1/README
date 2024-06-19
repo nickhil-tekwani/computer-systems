@@ -1,0 +1,9 @@
+The primary workings of the code are explained in practicum.c main function. Double.h implements a FIFO queue using a
+doubly linked list.
+
+This project was built in clion, if you load everything in and point CMakeLists.txt as your make file, you can run the debugger and see the output in terminal.
+
+For compilation not in Clion, you can simply gcc with doubly.h and practicum.c
+Due to machine constraints, this has not been thoroughly tested. Please reach out to me if there are any issues.
+
+https://i.imgur.com/WM40ZIa.png

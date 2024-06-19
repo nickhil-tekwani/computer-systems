@@ -1,0 +1,7 @@
+# Question 1
+Please navigate to the directory in terminal and run "gcc caesar.c main.c -o main"
+Then you can run ./main with your desired inputs to run caesar encode or decode.
+Example: "./main -e hello 5" -> this will encrypt the string "hello" with a key of 5. 
+
+# Question 2
+To return the result of the child process to the parent process (which spawned the child using fork), I would use pipes to pass the value. The pipe(var) function sets a variable that you can write() to later after getting the result from the child process. When you check the PID to be 0 (child), after the caesar encoding or decoding is done, you can write(var, %result, sizeof(result)) which will pass it back up to the parent accordingly to be accessed using read(var, &val, sizeof(val)).

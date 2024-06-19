@@ -1,0 +1,9 @@
+The server side code implements questions 1-7. 
+
+Run gcc -o server server.c then ./server 8080 to start the server
+
+Run gcc -o client client.c then ./client localhost 8080 GET /Users/nickhiltekwani/Documents/School/cs5600/practicum2/usb/foo.txt to test it. There are no explictly coded tests but I will show it on my practicum meeting. 
+
+I did not have an actual USB stick in my apartment so I created a subfolder to emulate it. 
+
+./client localhost 8082 RM /Users/nickhiltekwani/Documents/School/cs5600/practicum2/abc/presentation.txt
